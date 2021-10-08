@@ -1,5 +1,4 @@
 const readline = require("readline");
-const chalk = require("chalk");
 
 const row = (c) => (n) => c.repeat(n);
 const col = (row) => (n) => (row + "\n").repeat(n);
